@@ -1,4 +1,4 @@
-package dev.fidelhuarcaya.mathview;
+package dev.fidelhuarcaya.mathview.example;
 
 import org.junit.Test;
 
