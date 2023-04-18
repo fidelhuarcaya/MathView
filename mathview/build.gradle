@@ -38,20 +38,18 @@ dependencies {
 
 
 publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = 'dev.fidelhuarcaya'
-            artifactId = 'mathview'
-            version = "1.0.0"
+   publications {
+       maven(MavenPublication) {
+           groupId = 'dev.fidelhuarcaya'
+           artifactId = 'mathview'
+           version = "1.0.0"
+           pom {
+               description = 'Mathview library'
 
-
-            pom {
-                description = 'Mathview library'
-
-            }
-        }
-    }
-    repositories {
-        mavenLocal()
-    }
+           }
+       }
+   }
+   repositories {
+       mavenLocal()
+   }
 }

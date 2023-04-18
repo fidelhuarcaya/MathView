@@ -10,8 +10,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*MathView mathView= findViewById(R.id.math_view);
-        mathView.setText(sampleText());*/
+        MathView mathView= findViewById(R.id.math_view);
+        mathView.setText(sampleText());
 
     }
 
