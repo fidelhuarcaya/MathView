@@ -1,7 +1,10 @@
 <img alt="JitPack" src="https://img.shields.io/jitpack/version/com.github.fidelhuarcaya/MathView?color=gree&label=MathView&logoColor=green">
 
 **<h1 >MathView</h1>**
-To get a Git project into your build:
+Android library to display mathematical formulas and expressions.
+App in production using the library to show mathematical formulas, [Inspire me](https://play.google.com/store/apps/details?id=com.alphaneo.izimath).
+
+<br><br>To get a Git project into your build:
 
 **Step 1. Add the JitPack repository to your build file**
 
