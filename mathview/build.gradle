@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.library'
-    //id 'maven-publish'
+    id 'maven-publish'
 }
 
 android {
@@ -40,6 +40,7 @@ dependencies {
 publishing {
    publications {
        maven(MavenPublication) {
+
            groupId = 'dev.fidelhuarcaya'
            artifactId = 'mathview'
            version = "1.0.0"
